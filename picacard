@@ -1,0 +1,28 @@
+#!/bin/sh
+
+wtype=$(shuf -n1 types)
+
+echo -e "+====================================+"
+echo -e "|    PicACard - Your Random Card     |"
+echo -e "|         workout generator.         |"
+echo -e "+====================================+"
+echo -e "|      Today's workout:   $wtype       |"
+echo -e "+------------------------------------+"
+a=( $(cat cards ) )  
+b=( $(shuf -n4 $wtype  ) )
+
+for ((i=0;i<${#a[@]};++i)); do
+    echo -e "|    ${a[i]} \t:  ${b[i]}          |"
+done
+
+echo -e "+------------------------------------+"
+echo -e "|    Numbers    =  # of Reps         |"
+echo -e "|    Jacks      =  12 reps           |"
+echo -e "|    Queens     =  15 reps           |"
+echo -e "|    Kings      =  20 reps           |"
+echo -e "|    Aces       =  25 reps           |"
+echo -e "+------------------------------------+"
+echo -e "| Draw two cards of same value in a  |"
+echo -e "|  row doubles the number of reps.   |"
+echo -e "+------------------------------------+"
+
