@@ -22,7 +22,7 @@ echo -e "|    Queens     =  15 reps           |"
 echo -e "|    Kings      =  20 reps           |"
 echo -e "|    Aces       =  25 reps           |"
 echo -e "+------------------------------------+"
-echo -e "| Draw two cards of same value in a  |"
+echo -e "| Draw two cards of same suit in a   |"
 echo -e "|  row doubles the number of reps.   |"
 echo -e "+------------------------------------+"
 
