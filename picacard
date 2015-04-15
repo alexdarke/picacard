@@ -16,11 +16,11 @@ for ((i=0;i<${#a[@]};++i)); do
 done
 
 echo -e "+------------------------------------+"
-echo -e "|    Numbers    =  # of Reps         |"
-echo -e "|    Jacks      =  12 reps           |"
-echo -e "|    Queens     =  15 reps           |"
-echo -e "|    Kings      =  20 reps           |"
-echo -e "|    Aces       =  25 reps           |"
+echo -e "| Number Card   =  # of Reps         |"
+echo -e "|       Jacks   =  20 KB swing p/arm |"
+echo -e "|      Queens   =  6 inches (30s)    |"
+echo -e "|       Kings   =  100 crunches      |"
+echo -e "|        Aces   =  Planks (30s)      |"
 echo -e "+------------------------------------+"
 echo -e "| Draw two cards of same suit in a   |"
 echo -e "|  row doubles the number of reps.   |"
