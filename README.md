@@ -3,7 +3,7 @@ I wrote this script to automate the random generation of workouts for the "deck 
 
 Basic output:
 
-[alex@feh ~]$ ./picacard
+`[alex@feh ~]$ ./picacard
 +====================================+
 |    PicACard - Your Random Card     |
 |         workout generator.         |
@@ -24,5 +24,5 @@ Basic output:
 | Draw two cards of same value in a  |
 |  row doubles the number of reps.   |
 +------------------------------------+
-
+`
 Script is functional. I just need to finish filling out the arm, leg, and core workout lists.
