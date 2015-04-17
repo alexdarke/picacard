@@ -2,17 +2,19 @@
 
 wtype=$(shuf -n1 inc/types)
 
-echo -e "+====================================+"
-echo -e "|    PicACard - Your Random Card     |"
-echo -e "|         workout generator.         |"
-echo -e "+====================================+"
-echo -e "|      Today's workout:   $wtype       |"
-echo -e "+------------------------------------+"
+#echo -e "+====================================+"
+#echo -e "|    PicACard - Your Random Card     |"
+#echo -e "|         workout generator.         |"
+#echo -e "+====================================+"
+#echo -e "|      Today's workout:   $wtype       |"
+#echo -e "+------------------------------------+"
+
+printf 
 a=( $(cat inc/cards ) )  
 b=( $(shuf -n4 inc/$wtype  ) )
 
 for ((i=0;i<${#a[@]};++i)); do
-    echo -e "|    ${a[i]} \t:  ${b[i]}          |"
+    echo -e "     ${a[i]} \t:  ${b[i]}           "
 done
 
 echo -e "+------------------------------------+"
