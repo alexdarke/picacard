@@ -1,4 +1,5 @@
 #!/bin/sh
+CUR_DIR=$(pwd)
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
 
@@ -13,8 +14,8 @@ printf "|%-41s|\n" "      PicACard : Your Random Card      "
 printf "|%-41s|\n" "       workout generator ($wtype)          "
 printf "+%-41s+\n" "-----------------------------------------"
 
-a=( $(cat inc/cards ) )  
-b=( $(shuf -n4 inc/$wtype  ) )
+a=( $(cat $CUR_DIR/inc/cards ) )  
+b=( $(shuf -n4 $CUR_DIR/inc/$wtype  ) )
 
 for ((i=0;i<${#a[@]};++i)); do
 	printf "|%3s %-15s %1s %15s %3s|\n" " " "${a[i]}" "=" "${b[i]}" ""
