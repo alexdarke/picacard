@@ -5,10 +5,9 @@ Note: Script is functional. I just need to finish filling out the arm, leg, and 
 ```
 Usage: ./picacard arms
        ./picacard legs
-       ./picacard core
        ./picacard
 ```
-If no option is passed for workout type, workout type is randomly assigned.
+If no option is passed for workout type, workout type is randomly assigned. Core workouts are handled by the face cards.
 
 ![Alt text](inc/picacard.png)
 
