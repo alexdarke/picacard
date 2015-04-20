@@ -10,8 +10,8 @@ else
 fi
 
 printf "+%-41s+\n" "-----------------------------------------"
-printf "|%-41s|\n" "      PicACard : Your Random Card      "
-printf "|%-41s|\n" "       workout generator ($wtype)          "
+printf "|%-41s|\n" "      PicACard : Your Random Card     "
+printf "|%-41s|\n" "       workout generator ($wtype)         "
 printf "+%-41s+\n" "-----------------------------------------"
 
 a=( $(cat $CUR_DIR/inc/cards ) )  
